@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Reportes_MyBussines.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="server_name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">172.16.111.41\SQLMBP</Value>
+    </Setting>
+    <Setting Name="user_BD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sa</Value>
+    </Setting>
+    <Setting Name="password_BD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Sqlserver16</Value>
+    </Setting>
+    <Setting Name="BD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">JosueDeco</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
