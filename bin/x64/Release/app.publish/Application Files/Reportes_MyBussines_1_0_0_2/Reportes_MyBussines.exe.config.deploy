@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="Reportes_MyBussines.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.8.1" />
+    </startup>
+    <userSettings>
+        <Reportes_MyBussines.Properties.Settings>
+            <setting name="server_name" serializeAs="String">
+                <value>172.16.111.41\SQLMBP</value>
+            </setting>
+            <setting name="user_BD" serializeAs="String">
+                <value>sa</value>
+            </setting>
+            <setting name="password_BD" serializeAs="String">
+                <value>Sqlserver16</value>
+            </setting>
+            <setting name="BD" serializeAs="String">
+                <value>JosueDeco</value>
+            </setting>
+        </Reportes_MyBussines.Properties.Settings>
+    </userSettings>
+</configuration>

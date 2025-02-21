@@ -19,20 +19,35 @@ namespace Reportes_MyBussines
         {
             InitializeComponent();
             textBox1.Text = "Reporte General Ventas";
+
+            dateTimePicker1.Value = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1);
             dateTimePicker1.Format = DateTimePickerFormat.Custom;
             dateTimePicker1.CustomFormat = "dd/MMM/yyyy";
             dateTimePicker2.Format = DateTimePickerFormat.Custom;
             dateTimePicker2.CustomFormat = "dd/MMM/yyyy";
 
-
+            //Definimos los valores maximos y minimos para la barra de progreso
             toolStripProgressBar1.Minimum = 0;
             toolStripProgressBar1.Maximum = 100;
+
             // Configura el BackgroundWorker
             backgroundWorker.WorkerReportsProgress = true;
 
             backgroundWorker.DoWork += backgroundWorker_DoWork;
             backgroundWorker.ProgressChanged += BackgroundWorker_ProgressChanged;
             backgroundWorker.RunWorkerCompleted += BackgroundWorker_RunWorkerCompleted;
+
+            //Evitar la selecion al presionar el boton que genera los reportes
+            this.textBox1.TabStop = false;
+            this.textBox1.GotFocus += (s, e) => this.ActiveControl = null;
+            this.textBox2.TabStop = false;
+            this.textBox2.GotFocus += (s, e) => this.ActiveControl = null;
+            this.textBox3.TabStop = false;
+            this.textBox3.GotFocus += (s, e) => this.ActiveControl = null;
+            this.dateTimePicker1.TabStop = false;
+            this.dateTimePicker1.GotFocus += (s, e) => this.ActiveControl = null;
+            this.dateTimePicker2.TabStop = false;
+            this.dateTimePicker2.GotFocus += (s, e) => this.ActiveControl = null;
 
         }
 
@@ -47,8 +62,14 @@ namespace Reportes_MyBussines
             toolStripProgressBar1.Value = 0;
             toolStripStatusLabel1.Text = "Iniciando proceso...";
             backgroundWorker.RunWorkerAsync(); // Inicia el proceso en segundo plano
+
+            //Deshabilitamos los botones para evitar interrupciones
             button1.Enabled = false;
             button2.Enabled = false;
+
+            //Cambiamos el cursor a WaitCursor
+            this.Cursor = Cursors.WaitCursor;
+
         }
 
         public void backgroundWorker_DoWork(object sender, DoWorkEventArgs e)
@@ -125,8 +146,14 @@ namespace Reportes_MyBussines
             {
                 toolStripStatusLabel1.Text = "Proceso completado.";
             }
+
+            //Habilitamos los botones
             button1.Enabled = true;
             button2.Enabled = true;
+
+            //Cambiamos el cursor a Default
+            this.Cursor = Cursors.Default;
+
         }
 
     }

@@ -36,6 +36,7 @@ namespace Reportes_MyBussines
             backgroundWorker.RunWorkerAsync(); // Inicia el proceso en segundo plano
             button1.Enabled = false;
             button2.Enabled = false;
+            this.Cursor = Cursors.WaitCursor;
         }
 
         private void backgroundWorker_DoWork_Hijo(object sender, DoWorkEventArgs e)
@@ -115,6 +116,7 @@ namespace Reportes_MyBussines
             }
             button1.Enabled = true;
             button2.Enabled = true;
+            this.Cursor = Cursors.Default;
         }
     }
 }

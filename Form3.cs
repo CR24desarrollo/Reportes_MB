@@ -27,6 +27,19 @@ namespace Reportes_MyBussines
             backgroundWorker.ProgressChanged += BackgroundWorker_ProgressChanged_Hijo;  // Asigna el del hijo.
             backgroundWorker.RunWorkerCompleted += BackgroundWorker_RunWorkerCompleted;  // Quita el evento del padre.
             backgroundWorker.RunWorkerCompleted += BackgroundWorker_RunWorkerCompleted_Hijo;  // Asigna el del hijo.
+
+
+            //Evitar la selecion al presionar el boton que genera los reportes
+            this.textBox1.TabStop = false;
+            this.textBox1.GotFocus += (s, e) => this.ActiveControl = null;
+            this.textBox2.TabStop = false;
+            this.textBox2.GotFocus += (s, e) => this.ActiveControl = null;
+            this.textBox3.TabStop = false;
+            this.textBox3.GotFocus += (s, e) => this.ActiveControl = null;
+            this.dateTimePicker1.TabStop = false;
+            this.dateTimePicker1.GotFocus += (s, e) => this.ActiveControl = null;
+            this.dateTimePicker2.TabStop = false;
+            this.dateTimePicker2.GotFocus += (s, e) => this.ActiveControl = null;
         }
         private void button1_Click_Hijo(object sender, EventArgs e)
         {
@@ -36,7 +49,7 @@ namespace Reportes_MyBussines
             backgroundWorker.RunWorkerAsync(); // Inicia el proceso en segundo plano 
             button1.Enabled = false;
             button2.Enabled = false;
-
+            this.Cursor = Cursors.WaitCursor;
 
         }
 
@@ -117,6 +130,7 @@ namespace Reportes_MyBussines
             }
             button1.Enabled = true;
             button2.Enabled = true;
+            this.Cursor = Cursors.Default;
         }
     }
 }

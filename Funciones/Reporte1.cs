@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using OfficeOpenXml;
 using Reportes_MyBussines.Modelos;
-using OfficeOpenXml;
 using System.IO;
 using Telerik.WinControls.VirtualKeyboard;
 
@@ -18,7 +17,7 @@ namespace Reportes_MyBussines.Funciones
         public static event Action<int> _ProgressChanged; // Evento para reportar progreso
         public static event Action<string> _MessageUpdated; // Evento para enviar mensajes de progreso
         public static event Action _ProcessingCompleted; // Evento para indicar que se ha completado el proceso
-        public static event Action<string> _Error;
+        public static event Action<string> _Error;// Evento para indicar un error
         public Reporte1(Action<int> ProgressChanged, Action<string> MessageUpdated, Action ProcessingCompleted, Action<string> Error)
         {
             _ProgressChanged = ProgressChanged;
@@ -119,18 +118,23 @@ namespace Reportes_MyBussines.Funciones
                                 });
                                 iRow++;
 
-
+                                //Mensaje y coloreado de la barra de avance
                                 _ProgressChanged?.Invoke((iRow) * 100 / rowCount);
                                 _MessageUpdated?.Invoke($"Progreso: {(iRow - 1) * 100 / rowCount}%.");
                             }
                             // Exportar a Excel
                             ExportarAExcel(lsInfo, downloadsPath+$@"\\GENERAL VENTAS - {Fecha_Inicio} al {Fecha_Final}.xlsx");
-                            _ProcessingCompleted?.Invoke();
-                            MessageBox.Show("Se realizo el archivo", "[ALERT]");
+
+                            _ProcessingCompleted?.Invoke();//Proceso para cambiar estatus
+
+                            //Mesnaje de alerta
+                            MessageBox.Show($@"Operación completada con éxito.{Environment.NewLine}El archivo se guardo en DESCARGAS con el Nombre: GENERAL VENTAS - {Fecha_Inicio} al {Fecha_Final}.xlsx", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                         }
                         else
                         {
-                            MessageBox.Show("No se encontrarón datos en el rango de fechas.");
+                            //Warning
+                            MessageBox.Show("No se encontrarón datos en el rango de fechas.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         }
                     }
                 }
@@ -140,7 +144,7 @@ namespace Reportes_MyBussines.Funciones
             {
                 _Error?.Invoke($"Error: {ex.ToString()}");
                 ManejoDatos.Log("Reporte1->CrearReporte", "[ERROR]", ex.ToString());
-                MessageBox.Show("[ERROR]: " + ex);
+                MessageBox.Show("[ERROR]: " + ex, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         static void ExportarAExcel<T>(List<T> lista, string rutaArchivo)

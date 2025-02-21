@@ -47,7 +47,7 @@
             this.dateTimePicker1.CustomFormat = "dd/MM/yyyy";
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.dateTimePicker1.Location = new System.Drawing.Point(66, 107);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(123, 23);
             this.dateTimePicker1.TabIndex = 0;
@@ -59,7 +59,7 @@
             this.dateTimePicker2.CustomFormat = "dd/MM/yyyy";
             this.dateTimePicker2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.dateTimePicker2.Location = new System.Drawing.Point(346, 107);
-            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(2);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(127, 23);
             this.dateTimePicker2.TabIndex = 1;
@@ -72,7 +72,7 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.button1.ForeColor = System.Drawing.Color.Silver;
             this.button1.Location = new System.Drawing.Point(208, 168);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(109, 57);
             this.button1.TabIndex = 2;
@@ -88,7 +88,7 @@
             this.textBox1.Font = new System.Drawing.Font("Goudy Old Style", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.Silver;
             this.textBox1.Location = new System.Drawing.Point(66, 21);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(407, 29);
             this.textBox1.TabIndex = 3;
@@ -102,7 +102,7 @@
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.textBox2.ForeColor = System.Drawing.Color.Silver;
             this.textBox2.Location = new System.Drawing.Point(66, 84);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(112, 16);
             this.textBox2.TabIndex = 4;
@@ -115,7 +115,7 @@
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.textBox3.ForeColor = System.Drawing.Color.Silver;
             this.textBox3.Location = new System.Drawing.Point(346, 84);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(112, 16);
             this.textBox3.TabIndex = 5;
@@ -176,7 +176,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.dateTimePicker1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form2";
             this.Text = "Form2";
             this.statusStrip1.ResumeLayout(false);
@@ -191,8 +191,8 @@
         public System.Windows.Forms.DateTimePicker dateTimePicker2;
         public System.Windows.Forms.Button button1;
         public System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        public System.Windows.Forms.TextBox textBox2;
+        public System.Windows.Forms.TextBox textBox3;
         public System.Windows.Forms.Button button2;
         public System.ComponentModel.BackgroundWorker backgroundWorker;
         public System.Windows.Forms.StatusStrip statusStrip1;

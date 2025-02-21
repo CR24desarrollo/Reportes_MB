@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using OfficeOpenXml;
 using Reportes_MyBussines.Modelos;
-using OfficeOpenXml;
 using System.IO;
 
 namespace Reportes_MyBussines.Funciones
@@ -70,19 +69,23 @@ namespace Reportes_MyBussines.Funciones
                                 });
                                 iRow++;
 
-
+                                //Mensaje y coloreado de la barra de avance
                                 _ProgressChanged?.Invoke((iRow) * 100 / rowCount);
                                 _MessageUpdated?.Invoke($"Progreso: {(iRow - 1) * 100 / rowCount}%.");
                             }
 
                             // Exportar a Excel
                             ExportarAExcel(lsInfo, downloadsPath + $@"\\REMISION_FACTURA - {Fecha_Inicio} al {Fecha_Final}.xlsx");
-                            _ProcessingCompleted?.Invoke();
-                            MessageBox.Show("Se realizo el archivo", "[ALERT]");
+
+                            _ProcessingCompleted?.Invoke();//Proceso para cambiar estatus
+
+                            //Mesnaje de alerta
+                            MessageBox.Show($@"Operación completada con éxito.{Environment.NewLine}El archivo se guardo en DESCARGAS con el Nombre: REMISION_FACTURA - {Fecha_Inicio} al {Fecha_Final}.xlsx", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         }
                         else
                         {
-                            MessageBox.Show("No se encontrarón datos en el rango de fechas.");
+                            //Warning
+                            MessageBox.Show("No se encontrarón datos en el rango de fechas.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         }
                     }
                 }
@@ -90,8 +93,9 @@ namespace Reportes_MyBussines.Funciones
             }
             catch (Exception ex)
             {
+                _Error?.Invoke($"Error: {ex.ToString()}");
                 ManejoDatos.Log("Reporte2->CrearReporte", "[ERROR]", ex.ToString());
-                MessageBox.Show("[ERROR]: " + ex);
+                MessageBox.Show("[ERROR]: " + ex, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         static void ExportarAExcel<T>(List<T> lista, string rutaArchivo)
