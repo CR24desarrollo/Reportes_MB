@@ -37,9 +37,7 @@ namespace Reportes_MyBussines
             this.textBox3.TabStop = false;
             this.textBox3.GotFocus += (s, e) => this.ActiveControl = null;
             this.dateTimePicker1.TabStop = false;
-            this.dateTimePicker1.GotFocus += (s, e) => this.ActiveControl = null;
             this.dateTimePicker2.TabStop = false;
-            this.dateTimePicker2.GotFocus += (s, e) => this.ActiveControl = null;
         }
         private void button1_Click_Hijo(object sender, EventArgs e)
         {
