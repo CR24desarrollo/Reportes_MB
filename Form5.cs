@@ -11,15 +11,14 @@ using System.Windows.Forms;
 
 namespace Reportes_MyBussines
 {
-    public partial class Form3: Form2
+    public partial class Form5: Form2
     {
-        public Form3()
+        public Form5()
         {
-            textBox1.Text = "Reporte Remisión y Factura";
+            textBox1.Text = "Reporte Ventas por CP";
             InitializeComponent();
             button1.Click -= button1_Click;  // Elimina el evento del padre
             button1.Click += button1_Click_Hijo;  // Agrega un nuevo evento
-
             // Configura el BackgroundWorker con los nuevos eventos.
             backgroundWorker.DoWork -= backgroundWorker_DoWork;  // Quita el evento del padre.
             backgroundWorker.DoWork += backgroundWorker_DoWork_Hijo;  // Asigna el del hijo.
@@ -27,7 +26,6 @@ namespace Reportes_MyBussines
             backgroundWorker.ProgressChanged += BackgroundWorker_ProgressChanged_Hijo;  // Asigna el del hijo.
             backgroundWorker.RunWorkerCompleted += BackgroundWorker_RunWorkerCompleted;  // Quita el evento del padre.
             backgroundWorker.RunWorkerCompleted += BackgroundWorker_RunWorkerCompleted_Hijo;  // Asigna el del hijo.
-
             //Evitar la selecion al presionar el boton que genera los reportes
             this.textBox1.TabStop = false;
             this.textBox1.GotFocus += (s, e) => this.ActiveControl = null;
@@ -43,11 +41,10 @@ namespace Reportes_MyBussines
             // Resetea la barra de progreso
             toolStripProgressBar1.Value = 0;
             toolStripStatusLabel1.Text = "Iniciando proceso...";
-            backgroundWorker.RunWorkerAsync(); // Inicia el proceso en segundo plano 
+            backgroundWorker.RunWorkerAsync(); // Inicia el proceso en segundo plano
             button1.Enabled = false;
             button2.Enabled = false;
             this.Cursor = Cursors.WaitCursor;
-
         }
 
         private void backgroundWorker_DoWork_Hijo(object sender, DoWorkEventArgs e)
@@ -57,7 +54,7 @@ namespace Reportes_MyBussines
             string fechaFinal = dateTimePicker2.Value.ToString("yyyyMMdd");
             try
             {
-                Reporte2 primerReporte = new Reporte2(
+                Reporte4 primerReporte = new Reporte4(
                     progreso =>
                     {
                         // Verifica si el proceso debe ser cancelado
@@ -95,7 +92,7 @@ namespace Reportes_MyBussines
                             }
 
                     );
-                Reporte2.CrearReporte(fechaInicial, fechaFinal);
+                Reporte4.CrearReporte(fechaInicial, fechaFinal);
             }
             catch (Exception ex)
             {

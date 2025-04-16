@@ -46,5 +46,10 @@ namespace Reportes_MyBussines
             childForm.BringToFront();
             childForm.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Form5());
+        }
     }
 }

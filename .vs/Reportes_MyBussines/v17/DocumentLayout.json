@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|c:\\users\\carlos.rodriguez\\documents\\proyectos finales\\reportes_mb\\funciones\\reporte2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|c:\\users\\carlos.rodriguez\\documents\\proyectos finales\\reportes_mb\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\funciones\\reporte2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|solutionrelative:funciones\\reporte2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,32 +15,36 @@
       "RelativeMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|solutionrelative:form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|solutionrelative:form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\funciones\\reporte4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|solutionrelative:funciones\\reporte4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\modelos\\reporte4_modelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|solutionrelative:modelos\\reporte4_modelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\funciones\\reporte3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|solutionrelative:funciones\\reporte3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|solutionrelative:form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{145469D7-BD54-4679-86D8-85CAA7BAA00A}|Reportes_MyBussines.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,8 +54,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 16,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Reporte4.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\Funciones\\Reporte4.cs",
+              "RelativeDocumentMoniker": "Funciones\\Reporte4.cs",
+              "ToolTip": "C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\Funciones\\Reporte4.cs",
+              "RelativeToolTip": "Funciones\\Reporte4.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAcwHUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T17:31:38.606Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Reporte4_modelo.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\Modelos\\Reporte4_modelo.cs",
+              "RelativeDocumentMoniker": "Modelos\\Reporte4_modelo.cs",
+              "ToolTip": "C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\Modelos\\Reporte4_modelo.cs",
+              "RelativeToolTip": "Modelos\\Reporte4_modelo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T18:37:38.985Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -61,55 +95,71 @@
               "Name": "ST:0:0:{ba58fdf3-7af7-4b60-b69b-40ac68d83b75}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form2.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\Form2.cs",
-              "RelativeDocumentMoniker": "Form2.cs",
-              "ToolTip": "C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\Form2.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Form2.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T17:02:57.724Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Form2.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\Form2.Designer.cs",
-              "RelativeDocumentMoniker": "Form2.Designer.cs",
-              "ToolTip": "C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\Form2.Designer.cs",
-              "RelativeToolTip": "Form2.Designer.cs",
-              "ViewState": "AgIAALEAAAAAAAAAAAAmwMIAAAAOAAAAAAAAAA==",
+              "Title": "Form5.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\Form5.cs",
+              "RelativeDocumentMoniker": "Form5.cs",
+              "ToolTip": "C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\Form5.cs",
+              "RelativeToolTip": "Form5.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T16:13:00.07Z"
+              "WhenOpened": "2025-03-25T17:24:09.609Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "Form5.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\Form5.cs",
+              "RelativeDocumentMoniker": "Form5.cs",
+              "ToolTip": "C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\Form5.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form5.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T17:24:04.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Form4.cs",
               "DocumentMoniker": "C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\Form4.cs",
               "RelativeDocumentMoniker": "Form4.cs",
               "ToolTip": "C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\Form4.cs",
               "RelativeToolTip": "Form4.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwA8AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwA8AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T15:10:03.187Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Form3.cs",
               "DocumentMoniker": "C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\Form3.cs",
               "RelativeDocumentMoniker": "Form3.cs",
               "ToolTip": "C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\Form3.cs",
               "RelativeToolTip": "Form3.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB8AAAALAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwBwAAAB0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T15:09:30.808Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "Form3.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\Form3.cs",
               "RelativeDocumentMoniker": "Form3.cs",
@@ -120,49 +170,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
               "ToolTip": "C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\Form2.cs",
               "RelativeToolTip": "Form2.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwC4AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T15:02:53.67Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Reporte2.cs",
               "DocumentMoniker": "C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\Funciones\\Reporte2.cs",
               "RelativeDocumentMoniker": "Funciones\\Reporte2.cs",
               "ToolTip": "C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\Funciones\\Reporte2.cs",
               "RelativeToolTip": "Funciones\\Reporte2.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAYwAgAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAiwD4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T21:08:34.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-19T21:08:34.655Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Carlos.Rodriguez\\Documents\\Proyectos Prueba\\Reportes_MyBussines\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\Proyectos Prueba\\Reportes_MyBussines\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T20:39:08.021Z"
+              "WhenOpened": "2025-02-19T20:39:08.021Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Reporte3.cs",
               "DocumentMoniker": "C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\Funciones\\Reporte3.cs",
               "RelativeDocumentMoniker": "Funciones\\Reporte3.cs",
               "ToolTip": "C:\\Users\\Carlos.Rodriguez\\Documents\\PROYECTOS FINALES\\Reportes_MB\\Funciones\\Reporte3.cs",
               "RelativeToolTip": "Funciones\\Reporte3.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwCMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T20:30:53.229Z"
             }
